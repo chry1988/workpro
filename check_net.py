@@ -26,7 +26,7 @@ remote_conn=remote_conn_pre.invoke_shell()
 #check iptv groupcast
 remote_conn.send(comm[1])
 time.sleep(1)
-remote_conn.send(comm[2])
+remote_conn.send(comm[3])
 time.sleep(1)
 remote_conn.send(comm[0])
 time.sleep(1)
