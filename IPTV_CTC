@@ -1,0 +1,52 @@
+interface GigabitEthernet2/1/1/23
+ description TO IPTV-CTC
+ port link-type access
+ port default vlan 360
+ port-mirroring to observe-port 1 outbound
+
+
+GigabitEthernet2/1/1/23 current state : UP
+Line protocol current state : UP
+Description:TO IPTV-CTC
+Switch Port, PVID :  360, TPID : 8100(Hex), The Maximum Frame Length is 9216
+IP Sending Frames' Format is PKTFMT_ETHNT_2, Hardware address is 1047-8021-1a60
+Last physical up time   : 2017-09-14 00:11:35 UTC+08:00
+Last physical down time : 2017-09-14 00:09:38 UTC+08:00
+Current system time: 2017-09-19 15:13:27+08:00
+Port Mode: COMMON FIBER
+Speed : 1000,  Loopback: NONE
+Duplex: FULL,  Negotiation: ENABLE
+Mdi   : NORMAL
+Last 300 seconds input rate 9056 bits/sec, 11 packets/sec
+Last 300 seconds output rate 137204576 bits/sec, 12420 packets/sec
+Input peak rate 103906296 bits/sec, Record time: 2017-01-30 11:52:06
+Output peak rate 998470816 bits/sec, Record time: 2016-10-11 00:55:39
+
+Input:  241686901 packets, 30654536330 bytes
+  Unicast:                  235898172,  Multicast:                     5788228
+  Broadcast:                      501,  Jumbo:                               0
+  Discard:                          0,  Pause:                               0
+
+  Total Error:                      0
+  CRC:                              0,  Giants:                              0
+  Jabbers:                          0,  Fragments:                           0
+  Runts:                            0,  DropEvents:                          0
+  Alignments:                       0,  Symbols:                             0
+  Ignoreds:                         0,  Frames:                              0
+
+Output:  237632553178 packets, 328105951159475 bytes
+  Unicast:                  235878528,  Multicast:                237396659935
+  Broadcast:                    14715,  Jumbo:                               0
+  Discard:                          0,  Pause:                               0
+
+  Total Error:                    344
+  Collisions:                       0,  ExcessiveCollisions:                 0
+  Late Collisions:                  0,  Deferreds:                           0
+  Buffers Purged:                 344
+
+    Input bandwidth utilization threshold : 100.00%
+    Output bandwidth utilization threshold: 100.00%
+    Input bandwidth utilization  :    0%
+    Output bandwidth utilization :   14%
+
+

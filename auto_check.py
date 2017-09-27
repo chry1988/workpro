@@ -2,9 +2,10 @@ import paramiko,time,re
 import datetime
 
 class login(object):
-    def __init__(self,user,passwd,host,comm):
+    def __init__(self,user,passwd,hostname,host,comm):
         self.user=user
         self.passwd=passwd
+        self.hostname=hostname
         self.host=host
         self.comm=comm
     def inv_login(self):
@@ -14,19 +15,18 @@ class login(object):
         remote_conn = remote_conn_pre.invoke_shell()
 
         # check iptv groupcast
-        remote_conn.send(self.comm[1])
-        time.sleep(1)
-        remote_conn.send(self.comm[2])
-        time.sleep(1)
-        remote_conn.send(self.comm[0])
-        time.sleep(1)
+        for line in self.comm:
+            remote_conn.send(line)
+            time.sleep(0.1)
+
         output = remote_conn.recv(10000000)
         test = output.decode('ascii')
         output_list = re.split(r'[\r\n]', test)
         for i in output_list:
             print(i)
         # 文件处理
-        file_name = str(datetime.datetime.today().strftime('%Y.%m.%d%H.%M.%S')) + 'core'
+        #file_name = str(datetime.datetime.today().strftime('%Y.%m.%d%H.%M.%S')) + 'core'
+        file_name = self.hostname
         files = open(file_name, mode='w+')
         files.write(test)
         files.close()
@@ -34,6 +34,10 @@ class login(object):
             files.write(i)'''
         remote_conn_pre.close()
     def ssh_login(self):
+        #exec_command()
         pass
-
+    def ftp_up_load(self):
+        pass
+    def ftp_down_load(self):
+        pass
     pass
