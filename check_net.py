@@ -4,17 +4,32 @@ import datetime
 IDC_core=['192.168.248.65']
 CORE_DEVICE={'5F-CORE':'172.20.215.254','IDC2-CORE':'192.168.248.65','IDC1-CORE':''}
 ip='192.168.248.65'
+content={'中国有线网管值班电话':['010-68457939','010-68712607','010-68457916',''],
+         '韩春梅':['13910788527','市场部如遇困难可联系'],
+         '南京至无锡24小时值班电话':['0510-85876580'],
+         '蔡工':['15961882568',''],
+         '无锡张慎':['15951506918','无锡当地维护主任']}
+content_IPTV_CTC={}
+content_IPTV_CNC={}
 
 username='xuedan'
-password='1494146442533a'
-comm=['screen-length 30 temporary\n','screen-length 0 temporary\n',
-      'dis pim routing-table outgoing-interface include vlanif 500\n',
-      'dis pim routing-table outgoing-interface include vlanif 360\n',
-      'display  interface GigabitEthernet 1/1/1/23\n',
-      'display  interface GigabitEthernet 2/1/1/23\n',
-      'display this\n',
-      'display cu\n']
-CORE_OFFICE_COMM=['display interface XGigabitEthernet 0/0/39\n',]
+password=''
+comm_office=['screen-length 30 temporary\n','screen-length 0 temporary\n',
+             'ping 172.18.41.161\n',
+             'display interface XGigabitEthernet 0/0/39\n',
+             '\n']
+comm_idc_f=['screen-length 30 temporary\n','screen-length 0 temporary\n',
+            '\n']
+''' IPTV-CNC 250m IPTV-CTC 250m WANGHAILOU 155m'''
+comm_idc_s=['screen-length 30 temporary\n','screen-length 0 temporary\n',
+            'dis pim routing-table outgoing-interface include vlanif 500\n',
+            'dis pim routing-table outgoing-interface include vlanif 360\n',
+            'display interface GigabitEthernet 1/1/1/23\n',
+            'display interface GigabitEthernet 2/1/1/23\n',
+            'display interface GigabitEthernet 1/1/1/19\n',
+            'display this\n',
+            'display cu\n']
+
 remote_conn_pre=paramiko.SSHClient()
 remote_conn_pre.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 
