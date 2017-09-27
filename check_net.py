@@ -1,8 +1,8 @@
 import paramiko,time,re,loginservice
 import datetime
-
+'''http://blog.csdn.net/Temanm/article/details/50607741'''
 IDC_core=['192.168.248.65']
-CORE_DEVICE={'5F-CORE':'172.20.215.254','IDC2-CORE':'192.168.248.65','IDC1-CORE':''}
+CORE_DEVICE={'5F-CORE':'172.20.215.254','IDC2-CORE':'192.168.248.65','IDC1-CORE':'192.168.248.62'}
 ip='192.168.248.65'
 content={'中国有线网管值班电话':['010-68457939','010-68712607','010-68457916',''],
          '韩春梅':['13910788527','市场部如遇困难可联系'],
