@@ -1,0 +1,420 @@
+
+Info: The max number of VTY users is 20, and the number
+      of current VTY users on line is 2.
+      The current login time is 2017-09-28 18:02:05+08:00.
+<IDC2-3F-B5B6-S9306>screen-length 0 temporary
+Info: The configuration takes effect on the current user terminal interface only.
+<IDC2-3F-B5B6-S9306>display interface GigabitEthernet 1/1/1/23
+GigabitEthernet1/1/1/23 current state : UP
+Line protocol current state : UP
+Description:TO IPTV-CNC
+Switch Port, PVID :  500, TPID : 8100(Hex), The Maximum Frame Length is 9216
+IP Sending Frames' Format is PKTFMT_ETHNT_2, Hardware address is 1047-8021-1a60
+Last physical up time   : 2017-09-14 00:08:33 UTC+08:00
+Last physical down time : 2017-09-14 00:07:17 UTC+08:00
+Current system time: 2017-09-28 18:02:05+08:00
+Port Mode: COMMON FIBER
+Speed : 1000,  Loopback: NONE
+Duplex: FULL,  Negotiation: ENABLE
+Mdi   : NORMAL
+Last 300 seconds input rate 9800 bits/sec, 12 packets/sec
+Last 300 seconds output rate 86614592 bits/sec, 7845 packets/sec
+Input peak rate 999983248 bits/sec, Record time: 2014-04-09 19:36:31
+Output peak rate 999925832 bits/sec, Record time: 2014-04-09 17:39:13
+
+Input:  39721328298 packets, 54471649649523 bytes
+  Unicast:                  315743278,  Multicast:                 39405574716
+  Broadcast:                    10304,  Jumbo:                               0
+  Discard:                          0,  Pause:                               0
+
+  Total Error:                      0
+  CRC:                              0,  Giants:                              0
+  Jabbers:                          0,  Fragments:                           0
+  Runts:                            0,  DropEvents:                          0
+  Alignments:                       0,  Symbols:                             0
+  Ignoreds:                         0,  Frames:                              0
+
+Output:  873650263172 packets, 1203275532551613 bytes
+  Unicast:                  315744007,  Multicast:                873334490342
+  Broadcast:                    28823,  Jumbo:                               0
+  Discard:                     843478,  Pause:                               0
+
+  Total Error:                   3550
+  Collisions:                       0,  ExcessiveCollisions:                 0
+  Late Collisions:                  0,  Deferreds:                           0
+  Buffers Purged:                3550
+
+    Input bandwidth utilization threshold : 100.00%
+    Output bandwidth utilization threshold: 100.00%
+    Input bandwidth utilization  :    0%
+    Output bandwidth utilization : 8.66%
+
+<IDC2-3F-B5B6-S9306>dis pim routing-table outgoing-interface include vlanif 500
+ VPN-Instance: public net
+ Total 97 (*, G) entries; 113 (S, G) entries
+
+ Total matched 0 (*, G) entry; 30 (S, G) entries
+
+ (10.78.201.80, 226.1.1.161)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 30w:3d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+ (10.78.201.80, 226.1.1.162)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 30w:3d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+ (10.78.201.80, 226.1.1.163)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 37w:3d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+ (10.78.201.86, 226.1.1.164)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 37w:2d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+ (10.78.201.87, 226.1.1.164)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 20w:2d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+ (10.78.201.82, 226.1.1.165)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 37w:3d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+ (10.78.201.82, 226.1.1.166)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 35w:3d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+ (10.78.201.82, 226.1.1.167)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 35w:3d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+ (10.78.201.83, 226.1.1.168)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 37w:3d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+ (10.78.201.83, 226.1.1.169)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 37w:3d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+ (10.78.201.83, 226.1.1.170)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 37w:2d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+ (10.78.201.83, 226.1.1.171)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 35w:3d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+ (10.78.201.84, 226.1.1.172)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 35w:3d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+ (10.78.201.84, 226.1.1.173)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 37w:2d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+ (10.78.201.84, 226.1.1.174)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 35w:3d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+ (10.78.201.84, 226.1.1.175)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 18w:2d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+ (10.78.201.85, 226.1.1.176)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 35w:3d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+ (10.78.201.85, 226.1.1.177)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 36w:3d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+ (10.78.201.82, 226.1.1.178)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 35w:3d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+ (10.78.201.85, 226.1.1.179)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 36w:3d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+ (10.78.201.85, 226.1.1.180)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 37w:2d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+ (10.78.201.86, 226.1.1.181)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 36w:3d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+ (10.78.201.86, 226.1.1.182)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 36w:3d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+ (10.78.201.86, 226.1.1.183)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 36w:3d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+ (10.78.201.80, 226.1.1.184)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 30w:3d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+ (10.78.201.81, 226.1.1.185)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 37w:3d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+ (10.78.201.81, 226.1.1.186)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 37w:2d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+ (10.78.201.81, 226.1.1.187)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 37w:2d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+ (10.78.201.81, 226.1.1.188)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 35w:3d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+ (10.78.201.25, 226.1.1.201)
+     RP: 172.24.12.100
+     Protocol: pim-sm, Flag: RPT SPT LOC ACT 
+     UpTime: 22w:3d
+     Upstream interface: Vlanif201
+         Upstream neighbor: NULL
+         RPF prime neighbor: NULL
+     Downstream interface(s) information:
+     Total number of downstreams: 1
+         1: Vlanif500
+             Protocol: pim-sm, UpTime: 4d:14h, Expires: 00:03:25
+
+<IDC2-3F-B5B6-S9306>screen-length 30 temporary
+Info: The configuration takes effect on the current user terminal interface only.
+<IDC2-3F-B5B6-S9306>

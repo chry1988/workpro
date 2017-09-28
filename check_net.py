@@ -9,8 +9,10 @@ content={'中国有线网管值班电话':['010-68457939','010-68712607','010-68
          '南京至无锡24小时值班电话':['0510-85876580'],
          '蔡工':['15961882568',''],
          '无锡张慎':['15951506918','无锡当地维护主任']}
-
-object_type={
+AC_mess={'poe':['admin','ruijie','ruijie'],'ac':['admin','admin','admin']}
+'''paramiko.ssh_exception.AuthenticationException: Authentication failed.'''
+sobey={'CORE':'cntv@XCUT','10-2':'CNTV@xcut'}
+object_list={
     'IPTV_CNC':{
         'ip':'192.168.248.65',
         'comm':['screen-length 0 temporary\n',
@@ -51,7 +53,7 @@ object_type={
 
     }
 username='xuedan'
-password=''
+password='1494146442533a'
 
 ''' IPTV-CNC 250m IPTV-CTC 250m WANGHAILOU 155m'''
 
@@ -74,9 +76,21 @@ def board():
         pass
 
 def board_test():
-    action = read_files.read_file(file_name='IPTV_CTC')
-    test = action.check_iptv_ctc()
+    #action = read_files.read_file(file_name='IPTV_CTC')
+    #test = action.check_iptv_ctc()
+    #print(object_list['IPTV_CNC']['ip'],object_list['IPTV_CNC']['comm'])
+    #print(test)
+    action_one=auto_check.login(user=username,passwd=password,
+                          hostname='IPTV_CNC',host=object_list['IPTV_CNC']['ip'],comm=object_list['IPTV_CNC']['comm'])
+    action_one.inv_login()
+    check_action=read_files.read_file('IPTV_CNC').chose_action()
 
-    print(test)
+    #print(check_action)
+    print('端口状态 ：'+str(check_action[0]['state']))
+    print('最近30S输入流量 :'+ str(check_action[0]['input']))
+    print('最近30S输出流量 :'+ str(check_action[0]['output']))
+    for k in check_action[1]:
+        print(k,check_action[1][k])
+
 
 board_test()

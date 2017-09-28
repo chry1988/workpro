@@ -17,13 +17,13 @@ class login(object):
         # check iptv groupcast
         for line in self.comm:
             remote_conn.send(line)
-            time.sleep(0.1)
+            time.sleep(0.4)
 
-        output = remote_conn.recv(10000000)
+        output = remote_conn.recv(1000000000)
         test = output.decode('ascii')
         output_list = re.split(r'[\r\n]', test)
-        for i in output_list:
-            print(i)
+        #for i in output_list:
+        #    print(i)
         # 文件处理
         #file_name = str(datetime.datetime.today().strftime('%Y.%m.%d%H.%M.%S')) + 'core'
         file_name = self.hostname
