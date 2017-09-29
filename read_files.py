@@ -52,7 +52,7 @@ class read_file(object):
                 encoder[verable].append(listupa[16])
 
         #print(encoder)
-
+        #
         #print('发向IPTV 联通CNC的组播共：' + str(len(encoder)) + '路')
 
         file.close()

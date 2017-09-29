@@ -85,7 +85,7 @@ def board_test():
     #                      hostname='IPTV_CNC',host=object_list['IPTV_CNC']['ip'],comm=object_list['IPTV_CNC']['comm'])
     #action_one.inv_login()
     check_action=read_files.read_file('IPTV_CNC').chose_action()
-
+    #
     #print(check_action)
     print('发往IPTV-CNC的专线状态')
     print('端口状态 ：'+str(check_action[0]['state']))
