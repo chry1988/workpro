@@ -28,13 +28,17 @@ class read_file(object):
                 linken = re.split(' ', line)
                 link_satus[linken[3]] = linken[5]
             elif re.search('GigabitEthernet1/1/1/23 current state :',line):
-                linken = re.split(' ',line)
+                linken = re.split('[ \n]',line)
                 link_satus[linken[2]]=linken[4]
+            elif re.search('Output bandwidth utilization :',line):
+                linken = re.split('[ \n]',line)
+                link_satus[str(linken[4])+str(linken[5])]=linken[8]
 
             if re.search('^ \(.*\,.*\)', line):
                 listen = re.split('[ \(\)]', line)
                 if listen[2] in encoder.keys():
                     encoder[listen[2]].append(listen[3])
+                    verable = listen[2]
                 else:
                     encoder[listen[2]] = []
                     encoder[listen[2]].append(listen[3])
@@ -48,7 +52,7 @@ class read_file(object):
                 encoder[verable].append(listupa[16])
 
         #print(encoder)
-
+        #
         #print('发向IPTV 联通CNC的组播共：' + str(len(encoder)) + '路')
 
         file.close()
@@ -75,6 +79,7 @@ class read_file(object):
                 listen =re.split('[ \(\)]',line)
                 if listen[2] in encoder.keys():
                     encoder[listen[2]].append(listen[3])
+                    verable = listen[2]
                 else:
                     encoder[listen[2]]=[]
                     encoder[listen[2]].append(listen[3])

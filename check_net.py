@@ -1,4 +1,5 @@
 import paramiko,time,re,auto_check,read_files
+import tempfile
 import datetime
 '''http://blog.csdn.net/Temanm/article/details/50607741'''
 
@@ -80,17 +81,22 @@ def board_test():
     #test = action.check_iptv_ctc()
     #print(object_list['IPTV_CNC']['ip'],object_list['IPTV_CNC']['comm'])
     #print(test)
-    action_one=auto_check.login(user=username,passwd=password,
-                          hostname='IPTV_CNC',host=object_list['IPTV_CNC']['ip'],comm=object_list['IPTV_CNC']['comm'])
-    action_one.inv_login()
+    #action_one=auto_check.login(user=username,passwd=password,
+    #                      hostname='IPTV_CNC',host=object_list['IPTV_CNC']['ip'],comm=object_list['IPTV_CNC']['comm'])
+    #action_one.inv_login()
     check_action=read_files.read_file('IPTV_CNC').chose_action()
-
+    #
     #print(check_action)
+    print('发往IPTV-CNC的专线状态')
     print('端口状态 ：'+str(check_action[0]['state']))
-    print('最近30S输入流量 :'+ str(check_action[0]['input']))
-    print('最近30S输出流量 :'+ str(check_action[0]['output']))
+    print('当前端口使用率：'+str(check_action[0]['Outputbandwidth']))
+    print('最近300S平均输入流量 :'+ str(check_action[0]['input']))
+    print('最近300S平均输出流量 :'+ str(check_action[0]['output']))
+    board_cast_count=[]
     for k in check_action[1]:
-        print(k,check_action[1][k])
-
+        board_cast_count[len(board_cast_count):]=check_action[1][k][::3]
+        #print(k,check_action[1][k])
+    #print(board_cast_count)
+    print('发给CNC的组播共 :'+str(len(board_cast_count)) +'路')
 
 board_test()
