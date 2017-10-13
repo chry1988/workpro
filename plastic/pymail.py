@@ -3,11 +3,11 @@
 
 import os 
 import smtplib
-from  email.MIMEText import MIMEText
-from  email.Header import Header 
+#from  email.MIMEText import MIMEText
+#from  email.Header import Header
 
 mulu =  os.getcwd()
-print mulu
+print(mulu)
 fp = open('textfile', 'rb')
 # # Create a text/plain message
 msg = MIMEText(fp.read())

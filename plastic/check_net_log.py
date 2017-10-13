@@ -10,7 +10,8 @@
 #2017.1.10陈涛建议增加库文件，希望做到即时查询，研究中
 #2017.1.10能够根据关键字处理日志，并提供简便的输入方式
 #2017.1.13增加处理日志类型函数
-import time,datetime,re,commands
+import time,datetime,re
+    #commands
 from collections import Counter
 search_key_words = ['report','16:02:04']
 source_file = open(r'/home/chry/netmanage/oldshell/log','r',-1)
@@ -18,7 +19,7 @@ line_list = 70
 #today = time.strftime('%h %d %H:%M:%S')
 
 def printline(line_list=50):
-    print '-' * line_list
+    print('-' * line_list)
 
 def process(line):
     #分割日志文件并返回一个list
@@ -61,7 +62,8 @@ def check_time():
     if  test_time>9:
         today = time.strftime('%h %d')
     elif test_time>1:
-        today = commands.getoutput('date "+%b  %-d"')
+        #today = commands.getoutput('date "+%b  %-d"')
+        pass
     return today
 
 def re_check_message():
@@ -92,17 +94,17 @@ def message_kind_count():
     return cnt
 
 for result_message in import_message(search=[],default_search=['command','Command']):
-    print result_message
+    print(result_message)
 
 printline()
 
 cnt = dict(message_kind_count())
 for key in cnt:
-    print key + ':' + str(cnt[key])
+    print(key + ':' + str(cnt[key]))
 
 printline()
 
 net_admin = re_check_message()
 for message in net_admin:
-    print message
+    print(message)
 source_file.close()

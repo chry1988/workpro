@@ -1,8 +1,9 @@
+import math
 def __addline__():
-	print "+----+----+"
+	print("+----+----+")
 
 def __colline__():
-	print "|    |    |"
+	print("|    |    |")
 
 def __printline__ ():
 		__addline__() 

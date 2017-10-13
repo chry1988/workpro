@@ -13,6 +13,6 @@ cursor = cnx.cursor()
 cursor.execute("select * from  radacct ")
 nas = cursor.fetchall()
 for nass in nas:
-	print "%s,%s,%s,%s" % (nass[0],nass[1],nass[2],nass[3])
+	print("%s,%s,%s,%s" % (nass[0],nass[1],nass[2],nass[3]))
 cursor.close()
 cnx.close()
