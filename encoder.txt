@@ -1,0 +1,362 @@
+锐马-RM9032-IP	B4-8	10.78.201.33	226.1.4.8:2000	轮播足球频道-CDN	"rtmp://sportspush.live.wscdns.com/live/tiyuip9
+rtmp://5213.livepush.myqcloud.com/live/5213_tiyuip9"	总部轮播冷备
+锐马-RM9032-IP	B4-8	10.78.201.33	226.1.4.7:2000	轮播搏击频道-CDN	"rtmp://sportspush.live.wscdns.com/live/tiyuip10
+rtmp://5213.livepush.myqcloud.com/live/5213_tiyuip10"	null
+锐马-RM9032-IP	B4-8	10.78.201.33	226.1.4.10:2000	轮播篮球频道-CDN	"rtmp://sportspush.live.wscdns.com/live/tiyuip8
+rtmp://5213.livepush.myqcloud.com/live/5213_tiyuip8"	null
+锐马-RM9032-IP	B4-8	10.78.201.33	226.1.4.9:2000	轮播冰雪频道-CDN	"rtmp://sportspush.live.wscdns.com/live/tiyuip7
+rtmp://5213.livepush.myqcloud.com/live/5213_tiyuip7"	null
+锐马-RM9006-HD	B4-7	10.78.64.182	226.1.2.31:6000	XJTV-2	228.1.2.89:1000	新疆，内蒙冷备
+锐马-RM9006-HD	B4-7	10.78.64.182	null	XJTV-3	228.1.2.89:2000	null
+锐马-RM9006-HD	B4-7	10.78.64.182	null	XJTV-5	228.1.2.89:3000	null
+锐马-RM9006-HD	B4-7	10.78.64.182	null	XJTV-8	228.1.2.89:4000	null
+锐马-RM9006-HD	B4-7	10.78.64.182	null	XJTV-9	228.1.2.89:5000	null
+锐马-RM9006-HD	B4-7	10.78.64.182	226.1.2.5:6000	NMTV-M	228.1.2.89:6000	null
+Powersmart(S51)	B7-2	10.78.64.113	null	null	null	原IPTV直播设备
+Powersmart(S51)	B7-2	10.78.64.113	null	null	null	null
+Powersmart(S51)	B7-2	10.78.64.113	null	null	null	null
+Powersmart(S51)	B7-2	10.78.64.113	null	null	null	null
+Powersmart(S51)	B7-2	10.78.64.113	null	null	null	null
+Powersmart(S51)	B7-2	10.78.64.113	null	null	null	null
+Powersmart(S51)	B7-1	10.78.64.114	null	null	null	故障维修
+Powersmart(S51)	B7-1	10.78.64.114	null	null	null	null
+Powersmart(S51)	B7-1	10.78.64.114	null	null	null	null
+Powersmart(S51)	B7-1	10.78.64.114	null	null	null	null
+Powersmart(S51)	B7-1	10.78.64.114	null	null	null	null
+Powersmart(S51)	B7-1	10.78.64.114	null	null	null	null
+"Arc7202
+10.78.64.207"	B7-27	10.78.64.201	227.32.1.15:8500/226.1.2.33:6000	IPTV-兵团卫视	226.1.1.29:2000	IPTV直播新设备
+"Arc7202
+10.78.64.207"	B7-27	10.78.64.201	227.32.1.5:8500	IPTV-CCTV9SD	226.1.1.21:2000	null
+"Arc7202
+10.78.64.207"	B7-27	10.78.64.201	226.1.2.24:6000	IPTV-山东教育	226.1.1.30:2000	null
+"Arc7202
+10.78.64.207"	B7-27	10.78.64.201	227.32.1.35:8500	IPTV-财富天下	226.1.1.16:2000	null
+"Arc7202
+10.78.64.207"	B7-27	10.78.64.201	226.1.2.25:6000/226.1.2.26:6000	IPTV-厦门卫视	226.1.1.17:2000	null
+"Arc7202
+10.78.64.207"	B7-27	10.78.64.201	226.1.2.39:6000	IPTV-CETV2	226.1.1.41:2000	null
+"Arc7202
+10.78.64.207"	B7-27	10.78.64.201	226.1.2.39:6000	IPTV-CETV4	226.1.1.42:2000	null
+"Arc7202
+10.78.64.207"	B7-27	10.78.64.201	228.1.2.10:3000	IPTV-熊猫HD	226.1.10.20:2000	null
+"Arc7202
+10.78.64.207"	B7-27	10.78.64.201	226.1.2.38:6000	IPTV-CETV1HD	226.1.10.24:2000	null
+"Arc7202
+10.78.64.207"	B7-27	10.78.64.201	226.1.2.52:6000	IPTV-金鹰纪实HD	226.1.10.25:2000	null
+"Arc7202
+10.78.64.207"	B7-27	10.78.64.201	226.1.2.14:6000	IPTV-天津卫视HD	226.1.10.21:2000	null
+"Arc7202
+10.78.64.207"	B7-27	10.78.64.201	226.1.2.37:6000	IPTV-安徽卫视HD	226.1.10.1:2000	null
+"Arc7202
+10.78.64.207"	B7-27	10.78.64.201	227.32.1.20:8500/226.1.2.177:6000	IPTV-CCTV14HD	226.1.10.14:2000	null
+"Arc7202
+10.78.64.207"	B7-27	10.78.64.201	227.32.1.20:8500/226.1.2.177:6000	IPTV-CCTV12HD	226.1.10.12:2000	null
+"Arc7202
+10.78.64.207"	B7-27	10.78.64.201	227.32.1.19:8500/226.1.2.177:6000	IPTV-CCTV10HD	226.1.10.10:2000	null
+"Arc7202
+10.78.64.207"	B7-27	10.78.64.201	227.32.1.19:8500/226.1.2.176:6000	IPTV-CCTV9HD	226.1.10.9:2000	null
+"Arc7202
+10.78.64.207"	B7-27	10.78.64.201	227.32.1.18:8500	IPTV-CCTV8HD	226.1.10.8:2000	null
+"Arc7202
+10.78.64.207"	B7-27	10.78.64.201	227.32.1.16:8500/226.1.2.176:6000	IPTV-CCTV7HD	226.1.10.7:2000	null
+"Arc7202
+10.78.64.207"	B7-27	10.78.64.201	227.32.1.18:8500	IPTV-CCTV6HD	226.1.10.6:2000	null
+"Arc7202
+10.78.64.207"	B7-27	10.78.64.201	227.32.1.17:8500	IPTV-CCTV5HD	226.1.10.5:2000	null
+"Arc7202
+10.78.64.207"	B7-27	10.78.64.201	227.32.1.17:8500	IPTV-CCTV3HD	226.1.10.3:2000	null
+"Arc7202
+10.78.64.207"	B7-27	10.78.64.201	227.32.1.16:8500/226.1.2.176:6000	IPTV-CCTV2HD	226.1.10.2:2000	null
+"Arc7202
+10.78.64.207"	B7-25	10.78.64.202	227.32.1.27:8500/226.1.2.63:6000	未来电视-家有购物专网	228.1.2.112:2000	未来电视购物频道（备）
+"Arc7202
+10.78.64.207"	B7-25	10.78.64.202	227.32.1.27:8500/226.1.2.63:6000	未来电视-家有购物公网	http://10.78.64.207/ts/ott_jygw	null
+"Arc7202
+10.78.64.207"	B7-25	10.78.64.202	udp://228.1.2.10:3000	未来电视-熊猫频道	"http://10.78.64.207/ts/ott-xiongmaohd
+"	null
+"Arc7202
+10.78.64.207"	B7-25	10.78.64.202	227.32.1.28:8500/226.1.2.36:6000	未来电视-风尚购物专网	228.1.2.112:3000	null
+"Arc7202
+10.78.64.207"	B8-33	10.78.64.203	udp://227.32.1.17:8500	Sobey-CCTV5HD有线主-CBR测试	udp://228.1.20.10:5000	null
+"Arc7202
+10.78.64.207"	B8-33	10.78.64.203	udp://227.32.1.21:8500	Sobey-CCTV5+HD有线主	udp://228.1.20.7:1000	null
+"Arc7202
+10.78.64.207"	B8-33	10.78.64.203	udp://227.32.1.20:8500	Sobey-CCTV14HD有线主	udp://228.1.20.6:2000	null
+"Arc7202
+10.78.64.207"	B8-33	10.78.64.203	udp://227.32.1.20:8500	Sobey-CCTV12HD有线主	udp://228.1.20.6:1000	null
+"Arc7202
+10.78.64.207"	B8-33	10.78.64.203	udp://227.32.1.19:8500	Sobey-CCTV10HD有线主	udp://228.1.20.5:2000	null
+"Arc7202
+10.78.64.207"	B8-33	10.78.64.203	udp://227.32.1.19:8500	Sobey-CCTV9HD有线主	udp://228.1.20.5:1000	null
+"Arc7202
+10.78.64.207"	B8-33	10.78.64.203	udp://227.32.1.18:8500	Sobey-CCTV8HD有线主	udp://228.1.20.4:2000	null
+"Arc7202
+10.78.64.207"	B8-33	10.78.64.203	udp://227.32.1.16:8500	Sobey-CCTV7HD有线主	udp://228.1.20.4:1000	null
+"Arc7202
+10.78.64.207"	B8-33	10.78.64.203	udp://227.32.1.18:8500	Sobey-CCTV6HD有线主	udp://228.1.20.3:2000	null
+"Arc7202
+10.78.64.207"	B8-33	10.78.64.203	udp://227.32.1.17:8500	Sobey-CCTV5HD有线主	udp://228.1.20.3:1000	null
+"Arc7202
+10.78.64.207"	B8-33	10.78.64.203	udp://227.32.1.21:8500	Sobey-CCTV4HD有线主	udp://228.1.20.2:2000	null
+"Arc7202
+10.78.64.207"	B8-33	10.78.64.203	udp://227.32.1.17:8500	Sobey-CCTV3HD有线主	udp://228.1.20.2:1000	null
+"Arc7202
+10.78.64.207"	B8-33	10.78.64.203	udp://227.32.1.16:8500	Sobey-CCTV2HD有线主	udp://228.1.20.1:2000	null
+"Arc7202
+10.78.64.207"	B8-33	10.78.64.203	udp://227.32.1.22:8500	Sobey-CCTV1HD有线主	udp://228.1.20.1:1000	null
+"Arc7202
+10.78.64.207"	B8-35	10.78.64.204	null	null	null	N+M备份机器
+锐马RM9020-HD	B9-17-B	10.78.64.194	rtmp://newspull.live.wscdns.com/live/hdnew01	央视新闻移动直播01	228.2.1.3:1000	央视新闻移动直播收录
+锐马RM9020-HD	B9-17-B	10.78.64.194	rtmp://newspull.live.wscdns.com/live/hdnew02	央视新闻移动直播02	228.2.1.3:2000	null
+锐马RM9020-HD	B9-17-B	10.78.64.194	rtmp://newspull.live.wscdns.com/live/hdnew03	央视新闻移动直播03	228.2.1.3:3000	null
+锐马RM9020-HD	B9-17-B	10.78.64.194	rtmp://newspull.live.wscdns.com/live/hdnew04	央视新闻移动直播04	228.2.1.3:4000	null
+锐马RM9020-HD	B9-17-B	10.78.64.194	rtmp://newspull.live.wscdns.com/live/hdnew05	央视新闻移动直播05	228.2.1.3:5000	null
+锐马RM9020-HD	B9-17-A	10.78.64.193	http://192.168.169.12:8088/yuxuan1	体育01	228.2.1.15:1000	体育清流与CDN推送
+锐马RM9020-HD	B9-17-A	10.78.64.193	http://192.168.169.12:8088/yuxuan2	体育02	228.2.1.15:2000	null
+锐马RM9020-HD	B9-17-A	10.78.64.193	http://192.168.169.12:8088/yuxuan3	体育03	228.2.1.16:1000	null
+锐马RM9020-HD	B9-17-A	10.78.64.193	http://192.168.169.12:8088/yuxuan4	体育04	228.2.1.16:2000	null
+锐马RM9020-HD	B9-17-A	10.78.64.193	http://192.168.169.12:8088/yuxuan5	体育05	228.2.1.17:1000	null
+锐马RM9020-HD	B9-17-A	10.78.64.193	http://192.168.169.12:8088/yuxuan6	体育06	228.2.1.17:2000	null
+锐马RM9020-HD	B9-17-A	10.78.64.193	http://192.168.169.12:8088/yuxuan7	体育07	228.2.1.18:1000	null
+锐马RM9020-HD	B9-17-A	10.78.64.193	http://192.168.169.12:8088/yuxuan8	体育08	228.2.1.18:2000	null
+锐马RM9020-HD	B9-17-A	10.78.64.193	http://192.168.169.12:8088/yuxuan9	体育09	228.2.1.19:1000	null
+锐马RM9020-HD	B9-17-A	10.78.64.193	http://192.168.169.12:8088/yuxuan10	体育10	228.2.1.19:2000	null
+锐马RM9020-HD	B9-17-A	10.78.64.193	226.3.3.1:2000	体育01-CDN	"rtmp://sportspush.live.wscdns.com/live/tiyuip1
+"	null
+锐马RM9020-HD	B9-17-A	10.78.64.193	226.3.3.2:2000	体育02-CDN	"rtmp://sportspush.live.wscdns.com/live/tiyuip2
+"	null
+锐马RM9020-HD	B9-17-A	10.78.64.193	226.3.3.3:2000	体育03-CDN	"rtmp://sportspush.live.wscdns.com/live/tiyuip3
+"	null
+锐马RM9020-HD	B9-17-A	10.78.64.193	226.3.3.4:2000	体育04-CDN	"rtmp://sportspush.live.wscdns.com/live/tiyuip4
+"	null
+锐马RM9020-HD	B9-17-A	10.78.64.193	226.3.3.5:2000	体育05-CDN	"rtmp://sportspush.live.wscdns.com/live/tiyuip5
+"	null
+锐马RM9020-HD	B9-17-A	10.78.64.193	226.3.3.6:2000	体育06-CDN	"rtmp://sportspush.live.wscdns.com/live/tiyuip6
+"	null
+锐马RM9020-HD	B9-17-A	10.78.64.193	226.3.3.7:2000	体育07-CDN	"rtmp://sportspush.live.wscdns.com/live/tiyuip10
+"	null
+锐马RM9020-HD	B9-17-A	10.78.64.193	226.3.3.8:2000	体育08-CDN	"rtmp://sportspush.live.wscdns.com/live/tiyuip11
+"	null
+锐马RM9020-HD	B9-17-A	10.78.64.193	226.3.3.9:2000	体育09-CDN	rtmp://sportspush.live.wscdns.com/live/tiyuip12	null
+锐马RM9020-HD	B9-17-A	10.78.64.193	226.3.3.10:2000	体育10-CDN	"rtmp://sportspush.live.wscdns.com/live/tiyuip13
+"	null
+锐马RM9020-HD	B9-15-B	10.78.64.196	228.2.3.101:1000	移动直播01-审核后	228.1.2.142:1000	移动直播审核收录
+锐马RM9020-HD	B9-15-B	10.78.64.196	228.2.3.102:1000	移动直播02-审核后	228.1.2.142:2000	null
+锐马RM9020-HD	B9-15-B	10.78.64.196	228.2.3.103:1000	移动直播03-审核后	228.1.2.142:3000	null
+锐马RM9020-HD	B9-15-B	10.78.64.196	228.2.3.104:1000	移动直播04-审核后	228.1.2.142:4000	null
+锐马RM9020-HD	B9-15-B	10.78.64.196	228.2.3.105:1000	移动直播05-审核后	228.1.2.142:5000	null
+锐马RM9020-HD	B9-15-B	10.78.64.196	228.2.3.106:1000	移动直播06-审核后	228.1.2.143:1000	null
+锐马RM9020-HD	B9-15-B	10.78.64.196	228.2.3.107:1000	移动直播07-审核后	228.1.2.143:2000	null
+锐马RM9020-HD	B9-15-B	10.78.64.196	228.2.3.108:1000	移动直播08-审核后	228.1.2.143:3000	null
+锐马RM9020-HD	B9-15-B	10.78.64.196	228.2.3.109:1000	移动直播09-审核后	228.1.2.143:4000	null
+锐马RM9020-HD	B9-15-B	10.78.64.196	228.2.3.110:1000	移动直播10-审核后	228.1.2.143:5000	null
+锐马RM9020-HD	B9-15-B	10.78.64.196	228.2.3.111:1000	移动直播11-审核后	228.1.2.146:1000	null
+锐马RM9020-HD	B9-15-B	10.78.64.196	228.2.3.112:1000	移动直播12-审核后	228.1.2.146:2000	null
+锐马RM9020-HD	B9-15-B	10.78.64.196	228.2.3.113:1000	移动直播13-审核后	228.1.2.146:3000	null
+锐马RM9020-HD	B9-15-B	10.78.64.196	228.2.3.114:1000	移动直播14-审核后	228.1.2.146:4000	null
+锐马RM9020-HD	B9-15-B	10.78.64.196	228.2.3.115:1000	移动直播15-审核后	228.1.2.146:5000	null
+锐马RM9020-HD	B9-15-B	10.78.64.196	228.2.3.116:1000	移动直播16-审核后	228.1.2.147:1000	null
+锐马RM9020-HD	B9-15-B	10.78.64.196	228.2.3.117:1000	移动直播17-审核后	228.1.2.147:2000	null
+锐马RM9020-HD	B9-15-B	10.78.64.196	228.2.3.118:1000	移动直播18-审核后	228.1.2.147:3000	null
+锐马RM9020-HD	B9-15-B	10.78.64.196	228.2.3.119:1000	移动直播19-审核后	228.1.2.147:4000	null
+锐马RM9020-HD	B9-15-B	10.78.64.196	228.2.3.120:1000	移动直播20-审核后	228.1.2.147:5000	null
+锐马RM9020-HD	B9-15-A	10.78.64.195	null	移动直播01	228.1.2.140:1000	移动直播信源接收备用设备
+锐马RM9020-HD	B9-15-A	10.78.64.195	null	移动直播02	228.1.2.140:2000	null
+锐马RM9020-HD	B9-15-A	10.78.64.195	null	移动直播03	228.1.2.140:3000	null
+锐马RM9020-HD	B9-15-A	10.78.64.195	null	移动直播04	228.1.2.140:4000	null
+锐马RM9020-HD	B9-15-A	10.78.64.195	null	移动直播05	228.1.2.140:5000	null
+锐马RM9020-HD	B9-15-A	10.78.64.195	null	移动直播06	228.1.2.141:1000	null
+锐马RM9020-HD	B9-15-A	10.78.64.195	null	移动直播07	228.1.2.141:2000	null
+锐马RM9020-HD	B9-15-A	10.78.64.195	null	移动直播08	228.1.2.141:3000	null
+锐马RM9020-HD	B9-15-A	10.78.64.195	null	移动直播09	228.1.2.141:4000	null
+锐马RM9020-HD	B9-15-A	10.78.64.195	null	移动直播10	228.1.2.141:5000	null
+锐马RM9020-HD	B9-15-A	10.78.64.195	null	移动直播11	228.1.2.144:1000	null
+锐马RM9020-HD	B9-15-A	10.78.64.195	null	移动直播12	228.1.2.144:2000	null
+锐马RM9020-HD	B9-15-A	10.78.64.195	null	移动直播13	228.1.2.144:3000	null
+锐马RM9020-HD	B9-15-A	10.78.64.195	null	移动直播14	228.1.2.144:4000	null
+锐马RM9020-HD	B9-15-A	10.78.64.195	null	移动直播15	228.1.2.144:5000	null
+锐马RM9020-HD	B9-15-A	10.78.64.195	null	移动直播16	228.1.2.145:1000	null
+锐马RM9020-HD	B9-15-A	10.78.64.195	null	移动直播17	228.1.2.145:2000	null
+锐马RM9020-HD	B9-15-A	10.78.64.195	null	移动直播18	228.1.2.145:3000	null
+锐马RM9020-HD	B9-15-A	10.78.64.195	null	移动直播19	228.1.2.145:4000	null
+锐马RM9020-HD	B9-15-A	10.78.64.195	null	移动直播20	228.1.2.145:5000	null
+Powersmart(S51)	B4-4	10.78.64.115	null	null	null	原IPTV直播
+Powersmart(S51)	B4-4	10.78.64.115	null	null	null	null
+Powersmart(S51)	B4-4	10.78.64.115	null	null	null	null
+Powersmart(S51)	B4-4	10.78.64.115	null	null	null	null
+Powersmart(S51)	B4-4	10.78.64.115	null	null	null	null
+Powersmart(S51)	B4-4	10.78.64.115	null	null	null	null
+锐马-RM9506-AVS+	E4-4	10.78.64.134	228.1.2.10:3000	IPTV-熊猫HD	226.1.10.20:2000	IPTV-AVS+信号冷备
+锐马-RM9506-AVS+	E4-4	10.78.64.134	226.1.2.14:6000	IPTV-天津HD	226.1.10.21:2000	null
+锐马-RM9506-AVS+	E4-4	10.78.64.134	226.1.2.51:6000	IPTV-河北卫视HD	226.1.10.22:2000	null
+锐马-RM9506-AVS+	E4-4	10.78.64.134	226.1.2.38:6000	IPTV-CETV1HD	226.1.10.24:2000	null
+锐马-RM9506-AVS+	E4-4	10.78.64.134	226.1.2.52:6000	IPTV-金鹰纪实HD	226.1.10.25:2000	null
+锐马-RM9506-AVS+	E4-4	10.78.64.134	226.1.2.15:6000	安徽-高清	226.1.10.1:2000	null
+锐马-RM9004-HD	J3-32	10.78.43.16	null	null	null	频道下线
+锐马-RM9004-HD	J3-32	10.78.43.16	null	null	null	null
+锐马-RM9004-HD	J3-32	10.78.43.16	null	null	null	null
+锐马-RM9004-HD	J3-32	10.78.43.16	null	null	null	null
+锐马-RM9004-HD	J3-34	10.78.43.17	null	null	null	频道下线
+锐马-RM9004-HD	J3-34	10.78.43.17	null	null	null	null
+锐马-RM9004-HD	J3-34	10.78.43.17	null	null	null	null
+锐马-RM9004-HD	J3-34	10.78.43.17	null	null	null	null
+Powersmart(S51)	B4-3	10.78.64.104	null	null	null	null
+Powersmart(S51)	B4-3	10.78.64.104	null	null	null	null
+Powersmart(S51)	B4-3	10.78.64.104	null	null	null	null
+Powersmart(S51)	B4-3	10.78.64.104	null	null	null	null
+Powersmart(S53)	B8-8	10.78.64.93	null	null	null	null
+Powersmart(S53)	B8-8	10.78.64.93	null	null	null	null
+Powersmart(S53)	B8-8	10.78.64.93	null	null	null	null
+锐马-RM9020-HD	B7-9	10.78.64.95	226.1.2.31:6000	XJTV-2	"228.1.2.89:1000（收录地址）
+rtmp://newspush.live.wscdns.com/live/tsxjtv2（CDN推送地址）"	国传新疆、内蒙蒙语频道
+锐马-RM9020-HD	B7-9	10.78.64.95	null	XJTV-3	"228.1.2.89:2000
+rtmp://newspush.live.wscdns.com/live/tsxjtv3"	null
+锐马-RM9020-HD	B7-9	10.78.64.95	null	XJTV-5	"228.1.2.89:3000
+rtmp://newspush.live.wscdns.com/live/tsxjtv5"	null
+锐马-RM9020-HD	B7-9	10.78.64.95	null	XJTV-8	"228.1.2.89:4000
+rtmp://newspush.live.wscdns.com/live/tsxjtv8"	null
+锐马-RM9020-HD	B7-9	10.78.64.95	null	XJTV-9	"228.1.2.89:5000
+rtmp://newspush.live.wscdns.com/live/tsxjtv9"	null
+锐马-RM9020-HD	B7-9	10.78.64.95	226.1.2.5:6000	NMTV-M	"228.1.2.89:6000
+rtmp://newspush.live.wscdns.com/live/neimenggu2"	null
+锐马-RM9020-HD	B7-9	10.78.64.95	182.168.11.31:10009	畅达车联-联通	226.1.5.11:10009	null
+锐马-RM9020-HD	B7-9	10.78.64.95	228.1.2.10:3000	熊猫-OTT1.5M	http://10.78.64.95:10010/xiongmaohd	未来电视熊猫
+锐马-RM9020-HD	B7-9	10.78.64.95	226.1.4.8:2000	轮播足球频道-CDN	"rtmp://sportspush.live.wscdns.com/live/tiyuip9
+rtmp://5213.livepush.myqcloud.com/live/5213_tiyuip9"	总部轮播
+锐马-RM9020-HD	B7-9	10.78.64.95	226.1.4.7:2000	轮播搏击频道-CDN	"rtmp://sportspush.live.wscdns.com/live/tiyuip10
+rtmp://5213.livepush.myqcloud.com/live/5213_tiyuip10"	总部轮播
+锐马-RM9020-HD	B7-9	10.78.64.95	226.1.4.10:2000	轮播篮球频道-CDN	"rtmp://sportspush.live.wscdns.com/live/tiyuip8
+rtmp://5213.livepush.myqcloud.com/live/5213_tiyuip8"	总部轮播
+锐马-RM9020-HD	B7-9	10.78.64.95	226.1.4.9:2000	轮播冰雪频道-CDN	"rtmp://sportspush.live.wscdns.com/live/tiyuip7
+rtmp://5213.livepush.myqcloud.com/live/5213_tiyuip7"	总部轮播
+锐马-RM9016-HD	J4-5	10.78.43.11	226.1.2.74:6000	CCTV4-国传海外	"http://10.78.43.11:33005/cctv4hd
+"	null
+锐马-RM9016-HD	J4-5	10.78.43.11	226.1.2.63:6000	家有购物-未来电视	http://10.78.43.11:30015/jygwb	未来电视家有购物备
+锐马-RM9016-HD	J4-5	10.78.43.11	226.1.2.2:6000	CCTVF-Youtube	"http://10.78.43.11:33007/cctvf
+"	CGTN直播
+锐马-RM9016-HD	J4-5	10.78.43.11	226.1.2.2:6000	CCTVE-Youtube	"http://10.78.43.11:33008/cctve
+"	null
+锐马-RM9016-HD	J4-5	10.78.43.11	226.1.2.2:6000	CCTVR-Youtube	"http://10.78.43.11:33009/cctvr
+
+"	null
+锐马-RM9016-HD	J4-5	10.78.43.11	226.1.2.2:6000	CCTVA-Youtube	http://10.78.43.11:33010/cctva	null
+锐马-RM9016-HD	J4-5	10.78.43.11	228.1.2.10:3000	熊猫-国传	"rtmp://10.78.70.125/live/xiongmaohd
+"	国传、熊猫TV直播
+锐马-RM9016-HD	J4-5	10.78.43.11	228.1.2.135:2000/228.1.2.125:1000	CCTV7-Akamai	"http://10.78.43.11:33013/CCTV7
+"	null
+锐马-RM9016-HD	J4-5	10.78.43.11	228.1.2.105:1000/228.1.2.136:3000	CCTV14-Akamai	"http://10.78.43.11:30014/CCTV14
+"	null
+锐马-RM9016-HD	J4-5	10.78.43.11	226.1.2.63:6000	未来电视-家有购物卫星备	"http://10.78.43.11:30015/jygwb
+"	null
+锐马-RM9016-HD	J4-5	10.78.43.11	226.1.2.80:6000	凤凰高清	http://10.78.43.11:8089/fenghuang	null
+锐马-RM9016-HD	J4-7	10.78.43.12	227.32.1.7:8500	CCTVF-Youtube备	"http://10.78.43.12:1000/cctvf
+"	国传、CGTV直播备
+锐马-RM9016-HD	J4-7	10.78.43.12	null	CCTVE-Youtube备	"http://10.78.43.12:1001/cctve
+"	null
+锐马-RM9016-HD	J4-7	10.78.43.12	null	CCTVR-Youtube备	"http://10.78.43.12:1002/cctvr
+"	null
+锐马-RM9016-HD	J4-7	10.78.43.12	227.32.1.22:8500	CCTV1-500K-Akamai	"rtmp://10.78.43.20\21/hwzb/500cctv1
+(http://10.78.43.12:1003/cctv1)"	null
+锐马-RM9016-HD	J4-7	10.78.43.12	227.32.1.7:8500	CCTVA-Youtube备	http://10.78.43.12:4000/cctva	null
+锐马-RM9016-HD	J4-7	10.78.43.12	228.1.2.10:3000	熊猫-国传备	"rtmp://10.78.70.126/live/xiongmaohd
+"	null
+锐马-RM9016-HD	J4-7	10.78.43.12	226.1.2.74:6000	CCTV4-500K-Akamai	"rtmp://10.78.43.20\21/hwzb/500cctv4
+(http://10.78.43.12:4003/cctv4)"	null
+锐马-RM9016-HD	J4-7	10.78.43.12	226.1.2.74:6000	CCTV4-Facebook	"http://10.78.43.12:4002/cctv4-facebook
+"	null
+锐马-RM9016-HD	J4-7	10.78.43.12	226.1.2.3:6000	CCTV13-500K-Akamai-备	"rtmp://10.78.43.20\21/hwzb/500cctv13
+(http://10.78.43.12:3013/cctv13)"	null
+锐马-RM9016-HD	J4-7	10.78.43.12	227.32.1.17:8500	CCTV3-500K-Akamai	"rtmp://10.78.43.20\21/hwzb/500cctv3
+(http://10.78.43.12:3003/cctv3)"	null
+Powersmart(S48)	J3-26	10.78.43.40	227.32.1.5:8500	cctv1	http://10.78.43.40:8088/ts0	博广25路音频直播（正式设备）
+Powersmart(S48)	J3-26	10.78.43.40	227.32.1.5:8500	cctv2	http://10.78.43.40:8088/ts100	null
+Powersmart(S48)	J3-26	10.78.43.40	227.32.1.1:8500	cctv3	http://10.78.43.40:8088/ts200	null
+Powersmart(S48)	J3-26	10.78.43.40	227.32.1.2:8500	cctv5	http://10.78.43.40:8088/ts300	null
+Powersmart(S48)	J3-26	10.78.43.40	227.32.1.7:8500	cctv13	http://10.78.43.40:8088/ts400	null
+Powersmart(S48)	J3-26	10.78.43.40	227.32.1.15:8500	深圳	http://10.78.43.40:8088/ts800	null
+Powersmart(S48)	J3-26	10.78.43.40	227.32.1.9:8500	江苏	http://10.78.43.40:8088/ts900	null
+Powersmart(S48)	J3-26	10.78.43.40	227.32.1.10:8500	湖南	http://10.78.43.40:8088/ts1000	null
+Powersmart(S48)	J3-26	10.78.43.40	227.32.1.9:8500	东方	http://10.78.43.40:8088/ts1100	null
+Powersmart(S48)	J3-26	10.78.43.40	227.32.1.12:8500	北京	http://10.78.43.40:8088/ts1200	null
+Powersmart(S48)	J3-26	10.78.43.40	227.32.1.14:8500	浙江	http://10.78.43.40:8088/ts1300	null
+Powersmart(S48)	J3-26	10.78.43.40	ts://10.78.64.101:8088/ts400	郑州新闻	http://10.78.43.40:8088/ts1400	null
+Powersmart(S48)	J3-26	10.78.43.40	227.32.1.13:8500	湖北卫视	http://10.78.43.40:8088/ts1500	null
+Powersmart(S48)	J3-26	10.78.43.40	ts://10.78.64.101:8088/ts200	广州新闻	http://10.78.43.40:8088/ts1600	null
+Powersmart(S48)	J3-26	10.78.43.40	226.1.2.79:6000	凤凰卫视	http://10.78.43.40:8088/ts2400	null
+Powersmart(S51)	J4	10.78.65.22	null	null	null	博广音频备份
+Powersmart(S51)	J4	10.78.65.22	null	null	null	null
+Powersmart(S51)	J4	10.78.65.22	null	null	null	null
+Powersmart(S51)	J4	10.78.65.21	227.32.1.9:8500	东方卫视-Neulion	http://10.78.65.21:8088/ts0	null
+Powersmart(S51)	J4	10.78.65.21	null	null	null	null
+Powersmart(S51)	J4	10.78.65.21	null	null	null	null
+Powersmart(S51)	J4	10.78.65.21	227.32.1.27:8500	家有购物-未来电视主	http://10.78.65.21:8088/ts300	家有购物公网主
+Powersmart(S51)	J4	10.78.65.21	null	null	null	null
+Powersmart(S51)	J4	10.78.65.21	null	null	null	null
+Powersmart(S51)	J4	10.78.65.23	null	null	null	null
+Powersmart(S51)	J4	10.78.65.23	null	null	null	null
+Powersmart(S51)	J4	10.78.65.23	null	null	null	null
+Powersmart(S51)	J4	10.78.65.23	null	null	null	null
+Powersmart(S51)	J4	10.78.65.23	null	null	null	null
+Powersmart(S51)	J4	10.78.65.23	null	null	null	null
+"锐马
+"	J3-38-左	10.78.43.13	null	null	null	设备故障（可ping通，未能进入管理页面）
+"锐马
+"	J3-38-左	10.78.43.13	null	null	null	null
+"锐马
+"	J3-38-左	10.78.43.13	null	null	null	null
+"锐马
+"	J3-38-左	10.78.43.13	null	null	null	null
+"锐马
+"	J3-38-左	10.78.43.13	null	null	null	null
+锐马-RM9024-HD	J3-38-右	10.78.43.14	null	移动直播01	228.1.2.140:1000	移动直播信源接收
+锐马-RM9024-HD	J3-38-右	10.78.43.14	null	移动直播02	228.1.2.140:2000	null
+锐马-RM9024-HD	J3-38-右	10.78.43.14	null	移动直播03	228.1.2.140:3000	null
+锐马-RM9024-HD	J3-38-右	10.78.43.14	null	移动直播04	228.1.2.140:4000	null
+锐马-RM9024-HD	J3-38-右	10.78.43.14	null	移动直播05	228.1.2.140:5000	null
+锐马-RM9024-HD	J3-38-右	10.78.43.14	null	移动直播06	228.1.2.141:1000	null
+锐马-RM9024-HD	J3-38-右	10.78.43.14	null	移动直播07	228.1.2.141:2000	null
+锐马-RM9024-HD	J3-38-右	10.78.43.14	null	移动直播08	228.1.2.141:3000	null
+锐马-RM9024-HD	J3-38-右	10.78.43.14	null	移动直播09	228.1.2.141:4000	null
+锐马-RM9024-HD	J3-38-右	10.78.43.14	null	移动直播10	228.1.2.141:5000	null
+锐马-RM9024-HD	J3-38-右	10.78.43.14	null	移动直播11	228.1.2.144:1000	null
+锐马-RM9024-HD	J3-38-右	10.78.43.14	null	移动直播12	228.1.2.144:2000	null
+锐马-RM9024-HD	J3-38-右	10.78.43.14	null	移动直播13	228.1.2.144:3000	null
+锐马-RM9024-HD	J3-38-右	10.78.43.14	null	移动直播14	228.1.2.144:4000	null
+锐马-RM9024-HD	J3-38-右	10.78.43.14	null	移动直播15	228.1.2.144:5000	null
+锐马-RM9024-HD	J3-38-右	10.78.43.14	null	移动直播16	228.1.2.145:1000	null
+锐马-RM9024-HD	J3-38-右	10.78.43.14	null	移动直播17	228.1.2.145:2000	null
+锐马-RM9024-HD	J3-38-右	10.78.43.14	null	移动直播18	228.1.2.145:3000	null
+锐马-RM9024-HD	J3-38-右	10.78.43.14	null	移动直播19	228.1.2.145:4000	null
+锐马-RM9024-HD	J3-38-右	10.78.43.14	null	移动直播20	228.1.2.145:5000	null
+锐马-RM9024-HD	J3-38-右	10.78.43.14	227.32.1.22:8500	CCTV1HD-facebook	"http://10.78.43.14:2110/cctv1hd
+"	null
+锐马-RM9024-HD	J3-38-右	10.78.43.14	227.32.1.17:8500	CCTV3HD-facebook	"http://10.78.43.14:2111/cctv3hd
+"	null
+锐马-RM9024-HD	J3-38-右	10.78.43.14	226.1.2.74:6000	CCTV4HD-facebook	http://10.78.43.14:2112/cctv4hd	null
+锐马-RM9040-IP	J3-30	10.78.43.14	226.1.2.50:6000	舆情-Euronews	http://10.78.201.18:1026/Euronews	舆情外文收录
+锐马-RM9040-IP	J3-30	10.78.43.14	226.1.2.50:6000	舆情-I24	http://10.78.201.18:1028/I24	null
+锐马-RM9040-IP	J3-30	10.78.43.14	226.1.2.70:6000	舆情-CNAI	http://10.78.201.18:1032/CNA	null
+锐马-RM9040-IP	J3-30	10.78.43.14	226.1.2.78:6000	舆情-NHK	http://10.78.201.18:1033/NHK	null
+锐马-RM9040-IP	J3-30	10.78.43.14	226.1.2.83:6000	舆情-ArirangTV	http://10.78.201.18:1034/ArirangTV	null
+锐马-RM9040-IP	J3-30	10.78.43.14	226.1.2.68:6000	舆情-Russiatoday	http://10.78.201.18:1030/Russiatoday	null
+锐马-RM9040-IP	J3-30	10.78.43.14	226.1.2.78:6000	舆情-AI	"http://10.78.201.18:1031/Jazeera
+"	null
+锐马-RM9040-IP	J3-30	10.78.43.14	null	IPTV-兵团卫视	226.1.1.29:2000	IPTV卫星冷备
+锐马-RM9040-IP	J3-30	10.78.43.14	null	IPTV-山东教育	226.1.1.30:2000	null
+锐马-RM9040-IP	J3-30	10.78.43.14	null	IPTV-厦门卫视	226.1.1.17:2000	null
+锐马-RM9040-IP	J3-30	10.78.43.14	null	IPTV-CETV2	226.1.1.41:2000	null
+锐马-RM9040-IP	J3-30	10.78.43.14	null	IPTV-CETV4	226.1.1.42:2000	null
+锐马-RM9040-IP	J3-28	10.78.43.14	null	IPTV-CCTV14HD	226.1.10.14:2000	IPTV有线冷备
+锐马-RM9040-IP	J3-28	10.78.43.14	null	IPTV-CCTV12HD	226.1.10.12:2000	null
+锐马-RM9040-IP	J3-28	10.78.43.14	null	IPTV-CCTV10HD	226.1.10.10:2000	null
+锐马-RM9040-IP	J3-28	10.78.43.14	null	IPTV-CCTV9HD	226.1.10.9:2000	null
+锐马-RM9040-IP	J3-28	10.78.43.14	null	IPTV-CCTV8HD	226.1.10.8:2000	null
+锐马-RM9040-IP	J3-28	10.78.43.14	null	IPTV-CCTV7HD	226.1.10.7:2000	null
+锐马-RM9040-IP	J3-28	10.78.43.14	null	IPTV-CCTV6HD	226.1.10.6:2000	null
+锐马-RM9040-IP	J3-28	10.78.43.14	null	IPTV-CCTV5HD	226.1.10.5:2000	null
+锐马-RM9040-IP	J3-28	10.78.43.14	null	IPTV-CCTV3HD	226.1.10.3:2000	null
+锐马-RM9040-IP	J3-28	10.78.43.14	null	IPTV-CCTV2HD	226.1.10.2:2000	null
+锐马-RM9040-IP	J3-28	10.78.43.14	null	IPTV-财富天下	226.1.1.16:2000	null
+锐马-RM9040-IP	J3-28	10.78.43.14	null	IPTV-CCTV9SD	226.1.1.21:2000	null
+null	J3-28	10.78.43.14	null	null	null	null
