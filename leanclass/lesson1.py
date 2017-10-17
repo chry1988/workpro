@@ -50,3 +50,4 @@ cd = dictclass(a=dicta,key='a',b=dictb)
 
 
 print(cd.get_key())
+

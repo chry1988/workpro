@@ -2,9 +2,10 @@ import paramiko,time,re,auto_check,read_files
 import tempfile
 import datetime
 '''http://blog.csdn.net/Temanm/article/details/50607741'''
-
+'定义交换机和对应地址'
 CORE_DEVICE={'5F-CORE':'172.20.215.254','IDC2-CORE':'192.168.248.65','IDC1-CORE':'192.168.248.62'}
 ip='192.168.248.65'
+'定义操作内容'
 content={'中国有线网管值班电话':['010-68457939','010-68712607','010-68457916',''],
          '韩春梅':['13910788527','市场部如遇困难可联系'],
          '南京至无锡24小时值班电话':['0510-85876580'],
@@ -13,6 +14,7 @@ content={'中国有线网管值班电话':['010-68457939','010-68712607','010-68
 AC_mess={'poe':['admin','ruijie','ruijie'],'ac':['admin','admin','admin']}
 '''paramiko.ssh_exception.AuthenticationException: Authentication failed.'''
 sobey={'CORE':'cntv@XCUT','10-2':'CNTV@xcut'}
+'输入的命令'
 object_list={
     'IPTV_CNC':{
         'ip':'192.168.248.65',
@@ -77,16 +79,13 @@ def board():
         pass
 
 def board_test():
-    #action = read_files.read_file(file_name='IPTV_CTC')
-    #test = action.check_iptv_ctc()
-    #print(object_list['IPTV_CNC']['ip'],object_list['IPTV_CNC']['comm'])
-    #print(test)
-    #action_one=auto_check.login(user=username,passwd=password,
-    #                      hostname='IPTV_CNC',host=object_list['IPTV_CNC']['ip'],comm=object_list['IPTV_CNC']['comm'])
-    #action_one.inv_login()
+    #处理登陆信息
+    action_one=auto_check.login(user=username,passwd=password,
+                          hostname='IPTV_CNC',host=object_list['IPTV_CNC']['ip'],comm=object_list['IPTV_CNC']['comm'])
+    action_one.inv_login()
+    #处理收集到的信息
     check_action=read_files.read_file('IPTV_CNC').chose_action()
-    #
-    #print(check_action)
+
     print('发往IPTV-CNC的专线状态')
     print('端口状态 ：'+str(check_action[0]['state']))
     print('当前端口使用率：'+str(check_action[0]['Outputbandwidth']))

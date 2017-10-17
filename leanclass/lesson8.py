@@ -28,7 +28,16 @@ listb = ['11','22','33']
 l =Listinfo(lista=lista,listb=listb,num=0,keyname=4)
 print(l.del_key())
 print(lista)
+'''定义一个集合的操作类：Setinfo
 
+包括的方法: 
+
+1 集合元素添加: add_setinfo(keyname)  [keyname:字符串或者整数类型]
+2 集合的交集：get_intersection(unioninfo) [unioninfo :集合类型]
+3 集合的并集： get_union(unioninfo)[unioninfo :集合类型]
+4 集合的差集：del_difference(unioninfo) [unioninfo :集合类型]
+
+set_info =  Setinfo(你要操作的集合)'''
 class Setinfo(object):
     def __init__(self):
         pass
