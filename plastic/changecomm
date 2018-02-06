@@ -1,0 +1,40 @@
+int g 1/0/10
+shutdown
+int g 1/0/14
+shutdown
+int g 1/0/18
+shutdown
+int g 1/0/24
+shutdown
+int g 1/0/38
+shutdown
+int g 1/0/42
+shutdown
+int g 1/0/44
+shutdown
+int g 2/0/11
+shutdown
+int g 2/0/17
+shutdown
+int g 3/0/10
+shutdown
+int g 3/0/13
+shutdown
+int g 3/0/16
+shutdown
+int g 3/0/17
+shutdown
+int g 3/0/19
+shutdown
+int g 3/0/26
+shutdown
+int g 3/0/33
+shutdown
+int g 3/0/34
+shutdown
+int g 3/0/39
+shutdown
+int g 3/0/5
+shutdown
+int g 3/0/6
+shutdown
